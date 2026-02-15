@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62f30221-ac70-4809-8fc5-19b9bfe6ccc5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2025/day6_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/day_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/2025/day_6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,29 +31,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.day_1.executor": "Run",
-    "Python.day_2.executor": "Run",
-    "Python.day_3.executor": "Run",
-    "Python.day_4.executor": "Run",
-    "Python.day_5.executor": "Run",
-    "Python.day_6.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/KACPER/PYTHON/Projekty/AdventOfCode",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.day_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/KACPER/PYTHON/Projekty/AdventOfCode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\KACPER\PYTHON\Projekty\AdventOfCode\2025" />
@@ -62,7 +62,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-PY-252.28238.29" />
         <option value="bundled-python-sdk-a101402ee41c-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28238.29" />
       </set>
     </attachedChunks>
@@ -78,7 +77,9 @@
       <workItem from="1765754792604" duration="86000" />
       <workItem from="1765790159913" duration="31452000" />
       <workItem from="1765874455785" duration="10148000" />
-      <workItem from="1765890099238" duration="467000" />
+      <workItem from="1765890099238" duration="5666000" />
+      <workItem from="1766137756788" duration="4355000" />
+      <workItem from="1767784904335" duration="7000" />
     </task>
     <servers />
   </component>
@@ -89,9 +90,12 @@
     <SUITE FILE_PATH="coverage/AdventOfCode2025$day_3.coverage" NAME="day_3 Coverage Results" MODIFIED="1765833697644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AdventOfCode2025$day_6.coverage" NAME="day_6 Coverage Results" MODIFIED="1765889217455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AdventOfCode2025$day_5.coverage" NAME="day_5 Coverage Results" MODIFIED="1765831181410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AdventOfCode$day_6.coverage" NAME="day_6 Coverage Results" MODIFIED="1765914446787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2025" />
     <SUITE FILE_PATH="coverage/AdventOfCode2025$test.coverage" NAME="test Coverage Results" MODIFIED="1765889177879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AdventOfCode2025$day_1.coverage" NAME="day_1 Coverage Results" MODIFIED="1765718501610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AdventOfCode$test.coverage" NAME="test Coverage Results" MODIFIED="1765913651056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AdventOfCode2025$day_4.coverage" NAME="day_4 Coverage Results" MODIFIED="1765799759357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AdventOfCode$day_5.coverage" NAME="day_5 Coverage Results" MODIFIED="1765890586639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2025" />
     <SUITE FILE_PATH="coverage/AdventOfCode2025$day_2.coverage" NAME="day_2 Coverage Results" MODIFIED="1765803849041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

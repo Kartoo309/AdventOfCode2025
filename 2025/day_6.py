@@ -1,3 +1,5 @@
+import numpy as np
+
 problems = []
 problems_file = "day6_data.txt"
 
@@ -23,7 +25,31 @@ def czytanie_pliku(file):
     print(" ")
     print("Zawartość problems:")
     print(problems)
-    return problems, s
+    return problems
+
+def czytanie_pliku2(file):
+    try:
+        with open(file, 'r') as file:
+            s = file.read().strip()
+
+    except FileNotFoundError:
+        print(f"Błąd: Nie znaleziono pliku o nazwie '{problems_file}'. Upewnij się, że plik jest w tym samym katalogu co skrypt.")
+    except Exception as e:
+        print(f"Wystąpił nieoczekiwany błąd: {e}")
+
+    print("s:")
+    print(f"{s}")
+    p = s.strip()
+    for line in p.split("\n"):
+        lista = []
+        line = " ".join(line.split())
+        for l in line.split(" "):
+            lista.append(l)
+        problems.append(lista)
+    print(" ")
+    print("Zawartość problems:")
+    print(problems)
+    return problems
 
 def part_1():
     print(" ")
@@ -56,13 +82,20 @@ def part_2():
     print("Part 2")
     result = []
     suma = 0
+    matrix = []
+    #print(problems)
+    for list in problems:
+        for l in zip(list):
+            result.append(l)
+        print(list)
 
-    
+    print(result)
 
 def main():
     global problems, problems_file
 
-    czytanie_pliku(problems_file)
+    #czytanie_pliku(problems_file)
+    czytanie_pliku2(problems_file)
     #part_1()
     part_2()
 
